@@ -1,0 +1,111 @@
+Exercise-02:
+L1:Move your name on the screen.
+
+print("##   ##  ##                 ##                   ########")
+print(" ## ##                      ##                      ##")
+print("  ##     ##  ####    ####   ####   ## ##   ###      ##      ###   ####")
+print("  ##     ##  ## ##  ##  ##  ## ##  ## ##  ## ##     ##     ## ##  ## ##")
+print("  ##     ##  ## ##   #####  ## ##   ####   ####     ##      ####  ## ##")
+print("                    ##  ##")
+print("                    ##  ##")
+print("                     ####")
+import os
+i = os.system('cls')
+print("    ##   ##  ##                 ##                   ########")
+print("     ## ##                      ##                      ##")
+print("      ##     ##  ####    ####   ####   ## ##   ###      ##      ###   ####")
+print("      ##     ##  ## ##  ##  ##  ## ##  ## ##  ## ##     ##     ## ##  ## ##")
+print("      ##     ##  ## ##   #####  ## ##   ####   ####     ##      ####  ## ##")
+print("                        ##  ##")
+print("                        ##  ##")
+print("                         ####")
+import os
+i = os.system('cls')
+print("        ##   ##  ##                 ##                   ########")
+print("         ## ##                      ##                      ##")
+print("          ##     ##  ####    ####   ####   ## ##   ###      ##      ###   ####")
+print("          ##     ##  ## ##  ##  ##  ## ##  ## ##  ## ##     ##     ## ##  ## ##")
+print("          ##     ##  ## ##   #####  ## ##   ####   ####     ##      ####  ## ##")
+print("                            ##  ##")
+print("                            ##  ##")
+print("                             ####")
+import os
+i = os.system('cls')
+print("           ##   ##  ##                 ##                   ########")
+print("            ## ##                      ##                      ##")
+print("             ##     ##  ####    ####   ####   ## ##   ###      ##      ###   ####")
+print("             ##     ##  ## ##  ##  ##  ## ##  ## ##  ## ##     ##     ## ##  ## ##")
+print("             ##     ##  ## ##   #####  ## ##   ####   ####     ##      ####  ## ##")
+print("                               ##  ##")
+print("                               ##  ##")
+print("                                ####")
+import os
+i = os.system('cls')
+print("              ##   ##  ##                 ##                   ########")
+print("               ## ##                      ##                      ##")
+print("                ##     ##  ####    ####   ####   ## ##   ###      ##      ###   ####")
+print("                ##     ##  ## ##  ##  ##  ## ##  ## ##  ## ##     ##     ## ##  ## ##")
+print("                ##     ##  ## ##   #####  ## ##   ####   ####     ##      ####  ## ##")
+print("                                  ##  ##")
+print("                                  ##  ##")
+print("                                   ####")
+import os
+i = os.system('cls')
+print("                 ##   ##  ##                 ##                   ########")
+print("                  ## ##                      ##                      ##")
+print("                    ##     ##  ####    ####   ####   ## ##   ###      ##      ###   ####")
+print("                    ##     ##  ## ##  ##  ##  ## ##  ## ##  ## ##     ##     ## ##  ## ##")
+print("                    ##     ##  ## ##   #####  ## ##   ####   ####     ##      ####  ## ##")
+print("                                      ##  ##")
+print("                                      ##  ##")
+print("                                       ####")
+import os
+i = os.system('cls')
+print("                     ##   ##  ##                 ##                   ########")
+print("                      ## ##                      ##                      ##")
+print("                       ##     ##  ####    ####   ####   ## ##   ###      ##      ###   ####")
+print("                       ##     ##  ## ##  ##  ##  ## ##  ## ##  ## ##     ##     ## ##  ## ##")
+print("                       ##     ##  ## ##   #####  ## ##   ####   ####     ##      ####  ## ##")
+print("                                         ##  ##")
+print("                                         ##  ##")
+print("                                          ####")
+
+
+L2:Draw a picture on the screen and move it.
+
+import numpy as np
+import pylab as pl
+def plot_01():
+    x1 = [10, 20, 30, 40, 50, 60, 70, 80]
+    y1 = [10, 20, 30, 40, 50, 60, 70, 80]
+    x2 = [10, 20, 30, 40, 50, 60, 70, 80]
+    y2 = [80, 70, 60, 50, 40, 30, 20, 10]
+    plot1, = pl.plot(x1, y1, 'r')
+    plot2, = pl.plot(x2, y2, 'g')
+    pl.title('Plot of y vs. x')
+    pl.xlabel('x axis')
+    pl.ylabel('y axis')
+    pl.xlim(0.0, 80.)
+    pl.ylim(0.0, 80.)
+    first_legend=pl.legend([plot1, plot2], ['red line', 'green circles'], loc="best")
+    pl.show()
+print plot_01()
+import os
+i = os.system('cls')
+import numpy as np
+import pylab as pl
+def plot_02():
+    x1 = [10, 20, 30, 40, 50, 60, 70, 80]
+    y1 = [45, 45, 45, 45, 45, 45, 45, 45]
+    x2 = [45, 45, 45, 45, 45, 45, 45, 45]
+    y2 = [10, 20, 30, 40, 50, 60, 70, 80]
+    plot1, = pl.plot(x1, y1, 'r')
+    plot2, = pl.plot(x2, y2, 'g')
+    pl.title('Plot of y vs. x')
+    pl.xlabel('x axis')
+    pl.ylabel('y axis')
+    pl.xlim(0.0, 80.)
+    pl.ylim(0.0, 80.)
+    first_legend=pl.legend([plot1, plot2], ['red line', 'green circles'], loc="best")
+    pl.show()
+print plot_02()
