@@ -1,13 +1,13 @@
-Exercise-01:Write down your name.
+#Exercise-01:Write down your name.
 
-Abstract
+##Abstract
 This homework is mainly about how to print your name on the screen using Python.My name is "Yinghua Tan".
 
-Backgound:
+##Backgound:
 1:using How to think like a computer scientist – Learning with Python: Interactive Edition 2.0 to learn python language and do exercise.
 2:spelling your name on the screen.
 
-Exercise:
+##Code:
 Python Lauguage
 print("##   ##  ##                ##                   ########")
 Pirnt(" ## ##                     ##                      ##")
@@ -25,7 +25,7 @@ print("  ##      ##   ##  ##  ##  ##      ### ###  ##   ##    ##   ##       ##  
 print("  ##      ##   ##   ## ##  ##  ##  ##   ##  ##   ##   #########      ##      #########   ##   ## ##")
 print("  ##     ####  ###   ####   #####  ##   ##   #####   ##       ##     ##     ##       ##  ###   ####")
 
-The result:
+##The result:
 ##   ##  ##                ##                   ########
  ## ##                     ##                      ##
   ##     ##  ####    ###   ####   ## ##   ###      ##      ###   ####
