@@ -12,7 +12,8 @@ http://www.jianshu.com/p/f7f0a1c5830c
 http://www.jianshu.com/p/26168588ddb4
 ####Exercise_06:Chapter 2 problem 2.10:A discussion of the cannon
 http://www.jianshu.com/p/156001956214
-####Exercise_07:Chapter 2 problem 2.19:The spin of baseball and Visual motion of baseball
+####Exercise_07:Chapter 3 problem 3.13:Chaos in the Driven Nonlinear Pendulum
+http://www.jianshu.com/p/0e345ca7793c
 ####Exercise_08:Chapter 3 problem 3.4:non-linear oscillator
 ####Exercise_09:Chapter 3 problem 3.16:Strange attractor
 ####Exercise_10:Chapter 3 problem 3.31:Billiard ball on diverse table
