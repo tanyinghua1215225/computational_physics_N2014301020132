@@ -9,8 +9,11 @@ y2=np.random.normal(size=x2.shape)
 plt.subplot(211)
 plt.plot(x1,y1,'ro')
 plt.title('randomness')
+plt.ylim(-3,3)
 
 plt.subplot(212)
 plt.plot(x2,y2,'ro')
+plt.xlabel('n')
+plt.ylim(-3,3)
 
 plt.show()
