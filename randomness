@@ -1,1 +1,16 @@
-import numpy as npimport matplotlib.pyplot as pltx1=np.linspace(0,10,10)y1=np.random.normal(size=x1.shape)x2=np.linspace(0,50,50)y2=np.random.normal(size=x2.shape)plt.subplot(211)plt.plot(x1,y1,'ro')plt.title('randomness')plt.subplot(212)plt.plot(x2,y2,'ro')plt.show()
+import numpy as np
+import matplotlib.pyplot as plt
+
+x1=np.linspace(0,10,10)
+y1=np.random.normal(size=x1.shape)
+x2=np.linspace(0,50,50)
+y2=np.random.normal(size=x2.shape)
+
+plt.subplot(211)
+plt.plot(x1,y1,'ro')
+plt.title('randomness')
+
+plt.subplot(212)
+plt.plot(x2,y2,'ro')
+
+plt.show()
