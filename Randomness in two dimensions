@@ -1,0 +1,1 @@
+import numpy as npimport matplotlib.pyplot as pltdef randrange(n, vmin, vmax):    return (vmax - vmin)*np.random.rand(n) + vminfig = plt.figure()ax = fig.add_subplot(111)n = 100for c, m in [('r', 'o'), ('b', '^')]:    xs = randrange(n, -5, 5)    ys = randrange(n, -5, 5)    ax.scatter(xs, ys,  c=c, marker=m)ax.set_xlabel('X Label')ax.set_ylabel('Y Label')plt.show()
