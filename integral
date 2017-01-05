@@ -1,0 +1,1 @@
+import numpy as npimport matplotlib.pyplot as pltdef randrange(n, vmin, vmax):    return (vmax - vmin)*np.random.rand(n) + vmindef f(x):    return x    n=500x1=randrange(n,0,1)y1=randrange(n,0,1)xf=np.array([0,1])plt.plot(x1,y1,'ro',xf,f(xf),'g-')plt.show()
