@@ -1,1 +1,12 @@
-import numpy as npimport matplotlib.pyplot as pltx=np.linspace(0,100,100)y1=100+np.random.normal(size=x.shape)y2=100+0*xplt.plot(x,y1,'ro',x,y2,'g-')plt.xlabel('n')plt.title('numbers from a normal distrubution')plt.show()
+import numpy as np
+import matplotlib.pyplot as plt
+
+x=np.linspace(0,100,100)
+y1=100+np.random.normal(size=x.shape)
+y2=100+0*x
+
+plt.plot(x,y1,'ro',x,y2,'g-')
+plt.xlabel('n')
+plt.title('numbers from a normal distrubution')
+
+plt.show()
